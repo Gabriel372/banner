@@ -1,16 +1,15 @@
-.banner{
-max-width: 800px;
-max-height: 200px;    
-}
 .container{
+max-width: 770px;
+max-height: 180px;    
+}
+.banner{
 display: flex;
 flex-direction: column;
 justify-content:space-around;
 align-items: end;
-width: 800px; 
 height: 200px;
 background-image: linear-gradient(to bottom,rgb(29, 28, 28) 25%, white);
-padding-right: 40px;
+padding-right: 10px;
 }
 h1{
 display: block;    
@@ -32,6 +31,6 @@ font-family: 'Press Start 2P', cursive
 .imgLogo{
 display: flex;
 align-content: end;
-min-width: 550px;
+min-width: 450px;
 justify-content: space-around; 
 }
